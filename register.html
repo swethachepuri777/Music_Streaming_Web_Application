@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Register form </title>
+    <link rel="stylesheet" type="text/css" href="css\registerstyle.css">    
+</head>
+<body>
+
+    <div class="myButton">
+        <a href="userlogin.php" class="button"> Back </a>
+    </div>
+
+    <form action="#" method="post">
+        <table>
+            <h2> Registration Form </h2>
+            <tr>
+                <td> Name </td>
+                <td>
+                    <input type="text" placeholder="Username" name="uname">
+                </td>
+            </tr>
+            <tr>
+                <td> Password &nbsp</td>
+                <td>
+                    <input type="password" placeholder="Password" name="pwd">                    
+                </td>
+            </tr>
+            <tr>
+                <td> Gender </td>
+                <td>
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td> Email </td>
+                <td>
+                    <input type="mail" placeholder="Email" name="mail">
+                </td>
+            </tr>
+            <tr>
+                <td> Phone no </td>
+                <td>
+                    <select name="phn_code">
+                        <option> +91 </option>
+                        <option> +44 </option>
+                        <option> +98 </option>
+                        <option> +36 </option>
+                        <option> +30 </option>
+                        <option> +49 </option>
+                    </select>
+                    <input type="Phone" placeholder="9626******" name="phn_num">
+                </td>
+            </tr>
+        </table>
+        <fieldset align="center" style="border:0 none;">
+            <input name="Submit" type="Submit">
+        </fieldset>
+        <div class="end">
+        </div>
+    </form>
+</body>
+</html>
